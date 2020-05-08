@@ -20,45 +20,66 @@ body {
 }
 
 .wrap .content .left-menu .left-header {
-  padding: 20px 34.5px;
+  padding: 28px 0px;
   box-sizing: border-box;
 }
 
 .wrap .content .left-menu .left-header .left-header-row {
-    text-align: center;
-    width: 241px;
-    margin-bottom: 15px;
+  margin: 0 auto;
+  width: 243px;
+  margin-bottom: 12px;
 }
 
-.wrap .content .left-menu .left-header .logo{
-    margin-bottom: 50px;
+.wrap .content .left-menu .left-header .logo {
+  margin-bottom: 50px;
 }
 
-.wrap .content .left-menu .left-header .login-btn{
-    background-color: #C10909;
-    color: #fff;
-    font-weight: bold;
-    width: 100%;
-    font-size: 21px;
-    display: block;
-    padding: 17px 0 17px 0;
+.wrap .content .left-menu .left-header .login-btn {
+  background-color: #c10909;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  font-size: 20px;
+  display: block;
+  padding: 16px 0 16px 0;
+  text-align: center;
 }
 
-.wrap .content .left-menu .left-header .search-box{
-    background-color: #000000;
-    font-weight: bold;
-    width: 100%;
-    height: 32px;
-    font-size: 21px;
-    padding: 13px 0 13px 0;
+.wrap .content .left-menu .left-header .search-box {
+  position: relative;
+  background-color: #000000;
+  font-weight: bold;
+  width: 100%;
+  height: 42px;
+  font-size: 21px;
+  border: solid 1px #404040;
+  text-align: left;
+  box-sizing: border-box;
 }
 
-.wrap .content .left-menu .left-header .search-box input{
-   background-color: #000000;
-   border: none;
-   color: #fff;
+.wrap .content .left-menu .left-header .search-box input {
+  position: absolute;
+  background-color: #000000;
+  border: none;
+  color: #c0c0c0;
+  width: 90%;
+  left: 10px;
+  top: 12px;
+  font-size: 12px;
 }
 
+.wrap .content .left-menu .left-header .search-box input::placeholder {
+  background-color: #000000;
+  color: #c0c0c0;
+  font-size: 12px;
+}
+.wrap .content .left-menu .left-header .search-box a {
+  position: absolute;
+  background-color: #000000;
+  width: 10%;
+  top: 9px;
+  right: 0;
+}
 
 .wrap .content .left-menu ul.menu-list {
   width: 100%;
@@ -67,20 +88,22 @@ body {
 
 .wrap .content .left-menu ul.menu-list li {
   border-top: solid 2px #6d6d6d;
-  padding: 15px 15px;
+  padding: 17px 20px;
   box-sizing: border-box;
 }
 
-
 .wrap .content .left-menu ul.menu-list li p::after {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border: solid 1px #EC821D;
-    display: inline-block;
-    
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: solid 1px #ec821d;
+  display: inline-block;
+}
+
+.wrap .content .left-menu ul.menu-list .menu-tit {
+  font-size: 18px;
 }
 
 .wrap .content .left-menu ul.menu-list li .post-count {
-  color: #EC821D;
+  color: #ec821d;
 }
