@@ -1,2 +1,116 @@
 @import './reset.css';
 @import './common.css';
+
+
+.wrap .content .sub-content .main{
+  width: 100%;
+  background-color: #eee;
+}
+
+.wrap .content .sub-content .main .top-img img{
+  max-width: 100%;
+  background-color: #eee;
+}
+
+.wrap .content .sub-content .main .banner-box {
+  padding: 25px 25px;
+  box-sizing: border-box;
+}
+
+.wrap .content .sub-content .main .banner-box .banner01 {
+  margin-bottom: 25px;
+}
+
+.wrap .content .sub-content .main .banner-box .banner01 .swiper-container .swiper-wrapper .swiper-slide::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.wrap .content .sub-content .main .banner-box .banner01 .swiper-container .swiper-wrapper .swiper-slide img {
+  float: left;
+}
+
+.wrap .content .sub-content .main .banner-box .banner02{
+  margin-bottom: 25px;
+}
+
+.wrap .content .sub-content .main .banner-box .banner02::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.wrap .content .sub-content .main .banner-box .banner02 > div {
+  float: left;
+}
+
+.wrap .content .sub-content .main .banner-box .banner02 .youtube {
+  width: 750px;
+  height: 384px;
+  border: solid 1px red;;
+}
+
+.wrap .content .sub-content .main .banner-box .banner02 .sub-banner {
+
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box {
+  
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-top{
+  
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-list{
+    border-top: solid 2px #C10909;
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box li{
+  border-bottom: solid 2px #C0C0C0;
+  padding: 20px 20px;
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-tit {
+  text-align: left;
+  display: inline-block;
+  min-width: 70%;
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-info {
+  text-align: right;
+  display: inline-block;
+  max-width: 30%;
+}
+
+
+.wrap .content .sub-content .main .banner-box .noti-box .cate {
+  background-color: #202020;
+  color: #eee;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-tit .tit {
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-tit .tit a{
+  color: #202020;
+  font-weight: bold;
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-info .name {
+  font-weight: bold;
+  width: 200px;
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-info .date {
+  width: 150px;
+}
+
+.wrap .content .sub-content .main .banner-box .noti-box .noti-info .read-cnt {
+  width: 200px;
+  border: solid 1px red;;
+}
